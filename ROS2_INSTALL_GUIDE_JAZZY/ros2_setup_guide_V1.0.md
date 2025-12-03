@@ -68,7 +68,7 @@ Although not short, these installation steps will provide all the tools needed t
     3. `curl -L -o /tmp/ros2-apt-source.deb "https://github.com/ros-infrastructure/ros-apt-source/releases/download/${ROS_APT_SOURCE_VERSION}/ros2-apt-source_${ROS_APT_SOURCE_VERSION}.$(. /etc/os-release && echo ${UBUNTU_CODENAME:-${VERSION_CODENAME}})_all.deb"`
     4. `sudo dpkg -i /tmp/ros2-apt-source.deb`
 
-4. _**IMPORTANT:**_ ROS2 documentation notes that failure to update may cause catastrophic removal of vital system packages in Ubuntu 22.04.
+4. _**IMPORTANT:**_ ROS2 documentation notes that failure to update may cause catastrophic removal of vital system packages in Ubuntu 24.04.
 
 		sudo apt update & sudo apt upgrade
     
